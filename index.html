@@ -15,18 +15,49 @@
   <title>Fruit Burst</title>
 </head>
 <body>
+<header>
+    <nav class="m-10 bg-red-400 rounded-xl ">
+      <div class="navbar bg-base-100  shadow-xl bg-red-400 rounded-xl">
+        <div class="navbar-start">
+          <div class="dropdown gap-2">
+            <ul class="flex gap-2 text-xl lg:ml-5 ">
+              <li><a href="">Home</a></li>
+              <li><a href="">AboutUs</a></li>
+              <li><a href="">Shop</a></li>
+              <li><a href="">AllFruits</a></li>
+              
 
+            </ul>
+           
+          </div>
+        </div>
+        <div class="navbar-center flex">
+          <img class="w-11" src="./images/logo.png" alt="">
+          <a class="btn btn-ghost normal-case text-3xl font-extrabold ">Fruit Burst</a>
+        </div>
+        <div class="navbar-end">
+          <button class="btn btn-ghost btn-circle ">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+          </button>
+          
+        </div>
+      </div>
+    </nav>
 
-  <section class="m-16">
+                <!--nav end-->
+  <section class=" m-2  lg:m-16">
 
     <div class="carousel w-full">
       <div id="slide1" class="carousel-item relative w-full">
         <img src="./images/banner1.png" class="w-full" />
+
+        
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
           <a href="#slide4" class="btn btn-circle">❮</a> 
           <a href="#slide2" class="btn btn-circle">❯</a>
         </div>
-      </div> 
+      </div>
+     
       <div id="slide2" class="carousel-item relative w-full">
         <img src="./images/banner2.png" class="w-full" />
         <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
@@ -86,7 +117,7 @@
     </div>
 
   </section>
-
+</header>
 
   <!---Deal / day  section part -->
   <section class="container mx-auto bg-white shadow-xl p-3 my-14 mt-11">
